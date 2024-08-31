@@ -1,0 +1,82 @@
+1->
+	int f(int x){
+    		return x*x;
+	}
+
+
+	int main()
+	{
+    		int n; cin>>n;
+    		for(int i = 1; i <= n; i++){
+    		    cout<<f(i)<<endl;
+    		}
+
+    		return 0;
+	}
+
+2->
+	int f(int r){
+    		return 3.14*r*r;
+	}
+
+
+	int main()
+	{
+	    int r; cin>>r;
+	    cout<<f(r);
+
+	    return 0;
+	} 
+
+3->
+	void f(int a, int b){
+    		for(int x = a; x <= b; x++){
+        
+        	if(x%2 != 0) cout<< x<<endl;
+    		}
+	}
+
+
+	int main()
+	{
+	    int a, b; cin>>a>>b;
+	    f(a, b);
+	
+	    return 0;
+	}
+
+4->
+	
+	int f(int a){
+    		cout<<a*a<<endl;
+    		int count = 0;
+    		while(a > 0){
+        		count++;
+        		a /= 10;
+    		}
+    		cout<<count*count<<endl;
+    		return count;
+	}
+
+
+	int main()
+	{
+	    int a; cin>>a;
+	    cout<<f(a);
+	    return 0;
+	}
+5->
+	1
+
+
+6->
+	TRUE
+	FALSE
+
+7->
+	No becouse it creates a confusion for the compiler	
+
+
+
+
+
